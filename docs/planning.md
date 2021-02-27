@@ -40,8 +40,5 @@ I want to sign up for a photo sharing site
 
 Tickets
 ---------
-- [] Set up Devise
-- [] Add name, username to sign up
-- []
-- []
-- []
+- [ ] Set up Devise
+- [ ] Add name, username to sign up

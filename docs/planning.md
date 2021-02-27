@@ -40,7 +40,9 @@ I want to sign up for a photo sharing site
 
 Tickets
 ---------
-- [ ] Set up Devise
+- [x] Set up Devise
 - [ ] Add name, username to sign up
+- [ ] Include bootstrap
+- [ ] Add navbar
 - [ ] Set up on Heroku
   - [ ] Change production host server

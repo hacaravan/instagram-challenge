@@ -42,7 +42,7 @@ Tickets
 ---------
 - [x] Set up Devise
 - [ ] Add name, username to sign up
-- [ ] Include bootstrap
-- [ ] Add navbar
+- [x] Include bootstrap
+- [x] Add navbar
 - [ ] Set up on Heroku
   - [ ] Change production host server

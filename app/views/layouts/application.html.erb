@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>InstagramChallenge</title>
+    <title>Instagram Challenge</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,6 +11,12 @@
   </head>
 
   <body>
+   <p class="notice"><%= notice %></p>
+   <p class="alert"><%= alert %></p>
     <%= yield %>
   </body>
+  <footer>
+    <p>Made by Hugh Cavanagh as part of the Makers Academy Course</p>
+    <p>See <a href="https://github.com/hacaravan/instagram-challenge/blob/master/docs/planning.md">my Github repo for it</a></p>
+  </footer>
 </html>

@@ -42,3 +42,5 @@ Tickets
 ---------
 - [ ] Set up Devise
 - [ ] Add name, username to sign up
+- [ ] Set up on Heroku
+  - [ ] Change production host server

@@ -33,6 +33,7 @@ Planning
 So I can go somewhere to share my photos  
 I want to sign up for a photo sharing site
 >
+   :tick:
 
 - Use Devise to handle user sign up etc.
 
@@ -40,9 +41,12 @@ I want to sign up for a photo sharing site
 
 Tickets
 ---------
+#### MVP  
 - [x] Set up Devise
-- [ ] Add name, username to sign up
+- [x] Add name, username to sign up
 - [x] Include bootstrap
 - [x] Add navbar
+
+#### Stretch
 - [ ] Set up on Heroku
   - [ ] Change production host server

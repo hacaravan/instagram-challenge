@@ -35,3 +35,13 @@ I want to sign up for a photo sharing site
 >
 
 - Use Devise to handle user sign up etc.
+
+
+
+Tickets
+---------
+- [] Set up Devise
+- [] Add name, username to sign up
+- []
+- []
+- []

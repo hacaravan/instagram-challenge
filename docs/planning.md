@@ -59,7 +59,8 @@ Tickets
 - [x] Add name, username to sign up
 - [x] Include bootstrap
 - [x] Add navbar
-- [ ] Set up photos table and controller
+- [x] Set up Active Storage
+- [x] Link users to photos
 - [ ] Add photo upload page/section
 
 #### Stretch

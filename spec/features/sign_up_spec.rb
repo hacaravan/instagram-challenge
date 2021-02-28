@@ -1,13 +1,12 @@
-feature 'signing up' do
+feature 'signing up on the sign up page' do
 
-  context 'when you visit the sign up page' do
-    it 'works' do
-      visit '/users/sign_up'
-      fill_in 'Email', with: 'test@test.com'
-      fill_in 'Username', with: 'testUser'
-      fill_in 'Password', with: 'password'
-      fill_in 'Password confirmation', with: 'password'
+  context 'when you enter correct details' do
+    before { sign_up(username: 'testuser', email: 'test@test.com', password: 'password')}
+    it 'responds with 200 OK' do
       expect(page.status_code).to eq 200
+    end
+    it 'takes you to the home page' do
+      expect(page).to have_current_path('/')
     end
   end
 

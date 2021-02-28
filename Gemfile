@@ -58,6 +58,7 @@ group :test do
   gem 'webdrivers'
   gem 'simplecov', require: false
   gem 'simplecov-console', require: false
+  gem 'database_cleaner-active_record'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

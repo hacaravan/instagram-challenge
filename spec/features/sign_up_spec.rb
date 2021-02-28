@@ -6,7 +6,7 @@ feature 'signing up on the sign up page' do
       expect(page.status_code).to eq 200
     end
     it 'takes you to the home page' do
-      expect(page).to have_current_path('/')
+      expect(page).to have_current_path('/photos/feed')
     end
   end
 

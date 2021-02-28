@@ -33,10 +33,23 @@ Planning
 So I can go somewhere to share my photos  
 I want to sign up for a photo sharing site
 >
-   :tick:
+   :white_check_mark:
 
 - Use Devise to handle user sign up etc.
 
+>As an amateur photographer  
+So I can share my creations with the world  
+I want to upload my photos to a photo sharing site
+>
+:construction:
+- Host photos in AWS S3
+- Direct upload to S3 using JQuery file upload
+- As per [Direct to S3 Image Uploads in Rails | Heroku Dev Center](https://devcenter.heroku.com/articles/direct-to-s3-image-uploads-in-rails)
+- Need to have a photos class
+  - Caption
+  - Upload Date/Time
+  - User ID
+  - Image URL
 
 
 Tickets
@@ -46,7 +59,10 @@ Tickets
 - [x] Add name, username to sign up
 - [x] Include bootstrap
 - [x] Add navbar
+- [ ] Set up photos table and controller
+- [ ] Add photo upload page/section
 
 #### Stretch
+- [ ] Set up AWS S3
 - [ ] Set up on Heroku
   - [ ] Change production host server

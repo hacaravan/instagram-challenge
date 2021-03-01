@@ -4,7 +4,7 @@ class PhotosController < ApplicationController
   end
 
   def create
-    @photo = Photo.create(photo_params)
+    @photo = Cloudinary::Uploader.upload(params[:file])
     redirect_to photos_feed_url
   end
 
@@ -31,7 +31,7 @@ class PhotosController < ApplicationController
   private
 
   def photo_params
-    params.require(:photo, :user_id).permit(:caption)
+    params.require(:file).permit(:caption, :user_id)
   end
 
 end
